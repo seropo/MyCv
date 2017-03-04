@@ -1,0 +1,78 @@
+body{
+background-color:gray;margin:0%;overflow:hidden;
+}
+nav{
+background-color:white;height:10%;width:100%;
+}
+nav ul{
+padding:10px;margin-left:50%;
+}
+nav ul li{
+list-style-type:none;
+display:inline;padding:10px;margin-top:1%;padding-top:5px;text-transform:uppercase;
+}
+nav ul li:hover{cursor:pointer;
+box-shadow:0px 1px 10px black;transition:box-shadow 0.4s;
+}
+article{
+background-color:white;
+height:800px;
+width:100%;margin-top:1%;display:inline-block;
+}
+#profile,#PORTOFOLIO,#contct{
+ height:18%;
+ width:10%;
+ background-color:orange;margin-bottom:1%;margin-left:41%;margin-top:1%;
+}
+#profile:hover,#PORTOFOLIO:hover,#contct:hover{
+ padding:10px;
+ box-shadow:0px 1px 10px black;
+ transition:box-shadow 0.4s;cursor:pointer;
+}
+#profile{
+background-image:url("http://www.hbc333.com/data/out/190/47199326-profile-pictures.png");background-size:100px 150px;padding:1px;background-position:center;
+background-repeat:no-repeat;
+}
+span img:hover{
+box-shadow:0px 1px 4px black;
+transition:box-shadow 0.4s;cursor:pointer;
+}
+#PORTOFOLIO{
+background-image:url("http://files.softicons.com/download/web-icons/free-large-design-icons-by-aha-soft/png/512x512/Portfolio.png");background-size:100px 150px;padding:1px;background-position:center;
+background-repeat:no-repeat;
+}
+#portofolio-atas{
+height:50%;
+width:100%;margin-bottom:1%;background-image:url("img/garskin.png");
+background-size:100% 100%;background-repeat:no-repeat;
+}
+#portofolio-cx{
+height:50%;
+width:100%;margin-bottom:1%;background-image:url("img/cxcx.png");
+background-size:100% 100%;background-repeat:no-repeat;
+zoom:10;
+}
+#poto{
+height:400px;
+width:18%;background-repeat:no-repeat;background-size:240px 500px;
+margin-left:18%;margin-top:1%;background-image:url("http://www.snv-cncworks.com/img/left.png");
+}
+#contct{
+background-image:url("https://image.freepik.com/free-vector/contact-icons-in-3d_1053-96.jpg");background-size:100px 150px;padding:1px;background-position:center;
+background-repeat:no-repeat;}
+#panel{
+height:500px;
+width:40%;
+background-color:black;margin-top:-45.88%;position:relative;float:right;margin-right:4%;
+}
+#icon-home{background-size:100px 100px;
+background-image:url("http://www.snv-cncworks.com/img/left.png");
+height:100px;
+width:100px;position:relative;margin-top:-24%;cursor:pointer;
+}
+#identitas{height:400px;font-size:18pt;text-align:justify;
+width:40%;
+background-color:#b2b0b0;margin-top:-28.88%;position:relative;float:right;margin-right:10%;word-wrap:break-word;padding:10px;}
+#identitas label{
+margin-top:10%;
+}
